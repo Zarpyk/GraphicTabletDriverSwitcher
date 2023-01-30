@@ -6,6 +6,8 @@ This script use Wacom (Intuos S BT) and Huion (Inspiroy H1060P), but I think it 
 - Create windows shortcut of [Switch.bat](/Switch.bat) and change it's properties to open with admin rights
 - Or open directly [Switch.bat](/Switch.bat) with admin rights
 
+Extra info: You can edit the script right clicking and "Edit"
+
 # How to update drivers
 1. Install new drivers
 2. Go to `System32` and `SysWOW64` on `C:/Windows` and copy the new files named same as current files
