@@ -1,6 +1,8 @@
 # GraphicTabletDriverSwitcher
-This script use Wacom and Huion, but I think it works for any graphic tablet
+This script use Wacom (Intuos S BT) and Huion (Inspiroy H1060P), but I think it works for any graphic tablet if you modify the drivers inside the folders (Not tested)
+
 # How to use
+1. **CLOSE ALL ART/DESIGN PROGRAM** (Clip studio paint, photoshop, illustrator...)
 - Create windows shortcut of [Switch.bat](/Switch.bat) and change it's properties to open with admin rights
 - Or open directly [Switch.bat](/Switch.bat) with admin rights
 
@@ -8,6 +10,17 @@ This script use Wacom and Huion, but I think it works for any graphic tablet
 1. Install new drivers
 2. Go to `System32` and `SysWOW64` on `C:/Windows` and copy the new files named same as current files
 3. Paste these files in their respective folders
+
+Current Version:
+- Huion: v15.6.3.132 (**Inspiroy H1060P**)
+- Wacom: v6.4.1-3 (**Intuos S BT**)
+
+# Why don't work
+Possible reasons:
+- Open the script with Admin Rights (This is needed because script need copy file to System32 and SysWOW64)
+- Check that all art program are closed
+- Change the drivers to you graphic tablet, I don't know if each tablet has its own driver.
+- Update the drivers
 
 # Why Wacom have more file than Huion?
 It has more files, since copying less for some reason did not work the pressure in Clip Studio Paint and for test I put all Wacom files that were in System32 and it worked but I don't check what file is the reason :p
