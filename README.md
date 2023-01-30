@@ -9,6 +9,9 @@ This script use Wacom and Huion, but I think it works for any graphic tablet
 2. Go to `System32` and `SysWOW64` on `C:/Windows` and copy the new files named same as current files
 3. Paste these files in their respective folders
 
+# Why Wacom have more file than Huion?
+It has more files, since copying less for some reason did not work the pressure in Clip Studio Paint and for test I put all Wacom files that were in System32 and it worked but I don't check what file is the reason :p
+
 # How does it work
 
 ```bat
