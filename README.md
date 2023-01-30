@@ -21,6 +21,7 @@ Possible reasons:
 - Check that all art program are closed
 - Change the drivers to you graphic tablet, I don't know if each tablet has its own driver.
 - Update the drivers
+- Check if you have Huion App on `C:\Program Files\HuionTablet`, if not, change the path to the app on the script
 
 # Why Wacom have more file than Huion?
 It has more files, since copying less for some reason did not work the pressure in Clip Studio Paint and for test I put all Wacom files that were in System32 and it worked but I don't check what file is the reason :p
