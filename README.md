@@ -114,7 +114,7 @@ xcopy /s /y /q "%driver2%\SysWOW64" "%driverLocation2%"
 if NOT %ERRORLEVEL% == 0 (
 	goto errorfinal
 )
-::Change last driver to driver 1
+::Change last driver to driver 2
 echo %driver2% > "%lastDriverFileName%"
 ::Show what driver is using after change
 echo "Driver changed to %driver1Name% driver"
