@@ -1,3 +1,4 @@
+::https://github.com/Zarpyk/GraphicTabletDriverSwitcher/tree/main#extra
 @echo off
 
 ::Set path to current folder
