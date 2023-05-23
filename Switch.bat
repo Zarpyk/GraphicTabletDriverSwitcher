@@ -1,4 +1,4 @@
-::https://github.com/Zarpyk/GraphicTabletDriverSwitcher#graphictabletdriverswitcher
+::https://github.com/Zarpyk/GraphicTabletDriverSwitcher
 @echo off
 
 ::Set path to current folder
